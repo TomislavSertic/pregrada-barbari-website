@@ -5,9 +5,9 @@ export const UnderConstruction = () => {
   return (
     <div className={styles["under-construction"]}>
       <Image
-        src={"/images/UnderConstruction2.png"}
-        width={2000}
-        height={1500}
+        src={"/images/UnderConstruction3.png"}
+        width={760}
+        height={800}
         alt="under construction website"
       />
     </div>
