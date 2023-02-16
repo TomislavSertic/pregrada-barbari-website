@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="Košarkaški klub Pregrada Barbari" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image" content="/apple-touch-icon.png" />
+        <meta property="og:image" content="https://i.imgur.com/xCKKbSy.png" />
       </Head>
       <main>
         <UnderConstruction />
