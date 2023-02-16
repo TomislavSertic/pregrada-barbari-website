@@ -1,3 +1,4 @@
+import { UnderConstruction } from "@/components/utils/UnderConstruction";
 import Head from "next/head";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Webstranica u izradi.</h1>
+        <UnderConstruction />
       </main>
     </>
   );
