@@ -46,6 +46,8 @@ const config: Config = {
           { fontWeight: "400", lineHeight: "26px", letterSpacing: ".8px" },
         ],
         bodyMMobile: ["15px", { fontWeight: "400", lineHeight: "23px" }],
+        bodyS: ["12px", { fontWeight: "400", lineHeight: "14px" }],
+        bodyXS: ["6px", { fontWeight: "400", lineHeight: "14px" }],
         headingXL: ["72px", { fontWeight: "300", lineHeight: "70px" }],
         headingXLMobile: ["32px", { fontWeight: "300", lineHeight: "38px" }],
         headingL: ["48px", { lineHeight: "100%", fontWeight: "300" }],

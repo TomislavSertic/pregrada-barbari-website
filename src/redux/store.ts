@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { themeReducer } from "./features/theme.slice";
+import { localizationReducer } from "./features/localization.slice";
 
 export const store = configureStore({
   reducer: {
     theme: themeReducer,
+    localization: localizationReducer,
   },
 });
 // Infer the `RootState` and `AppDispatch` types from the store itself
