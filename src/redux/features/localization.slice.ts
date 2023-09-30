@@ -12,7 +12,7 @@ const localizationSlice = createSlice({
   name: "localization",
   initialState,
   reducers: {
-    changeLang: (state, action: { payload: TLocalizationLang }) => {
+    changeLang: (state, action: { payload: key in ELocalizationLang }) => {
       state.nav_links = NAV_LINKS[action.payload];
       state.about = ABOUT_TEXT[action.payload];
       state.contact = CONTACT_TEXT[action.payload];

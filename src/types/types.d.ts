@@ -6,5 +6,9 @@ export enum ELocalizationLang {
   ZAG = "zag",
 }
 export type TNavLink = {
-  [key in ELocalizationLang]: object[];
+  [key in ELocalizationLang]: {
+    _id: number;
+    title: string;
+    path: string;
+  }[];
 };
